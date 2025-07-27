@@ -29,7 +29,7 @@ This project is a **Streamlit-based web application** that allows users to uploa
 
 ### 🚀 Live Demo
 
-👉 Try it out here: [ATS Resume Checker on Hugging Face 🚀](https://huggingface.co/spaces/Indira-28-02/resume_checker_project)
+👉 Try it out here: [ATS Resume Checker on Hugging Face 🚀](https://huggingface.co/spaces/Indira-28-02/ats-resume-checker)
 
 ---
 
