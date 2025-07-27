@@ -13,6 +13,8 @@ license: other
 
 This project is a **Streamlit-based web application** that allows users to upload resumes and evaluates them like an ATS (Applicant Tracking System). It performs the following:
 
+---
+
 ### ✅ Features
 
 - 📄 Upload resume in PDF or DOCX format  
@@ -21,35 +23,43 @@ This project is a **Streamlit-based web application** that allows users to uploa
 - 📝 Score the resume based on job relevance  
 - 📊 Match resumes with job descriptions  
 - 💾 Save parsed data to a database  
-- 📥 Download parsed results as JSON or CSV
+- 📥 Download parsed results as JSON or CSV  
 
 ---
 
-### 🚀 How It Works
+### 🚀 Live Demo
+
+👉 Try it out here: [ATS Resume Checker on Hugging Face 🚀](https://huggingface.co/spaces/Indira-28-02/resume_checker_project)
+
+---
+
+### 🧠 How It Works
 
 1. **Upload your resume**
-2. The system will extract content using `pymupdf` or `python-docx`
+2. The system extracts content using `pymupdf` or `python-docx`
 3. Resume is analyzed using SpaCy NLP (`en_core_web_sm`)
-4. Results are displayed with entity highlights and matching score
+4. Results are displayed with entity highlights and job match score
 
 ---
 
 ### 🧱 Tech Stack
 
-- Python
-- Streamlit
-- SpaCy
-- pandas
-- scikit-learn
-- sqlalchemy
-- pymupdf
-- python-docx
+- Python  
+- Streamlit  
+- SpaCy  
+- pandas  
+- scikit-learn  
+- sqlalchemy  
+- pymupdf  
+- python-docx  
 
 ---
 
-### 📦 Installation (for local use)
+### 📦 Installation (for Local Use)
 
 ```bash
+git clone https://github.com/Indira-28-02/resume_checker_project.git
+cd resume_checker_project
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 streamlit run app.py
